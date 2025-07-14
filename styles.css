@@ -1,0 +1,159 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.header-hero {
+    background-color: #1f2937;
+    padding: 50px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    margin-bottom: 50px;
+}
+
+.header-logo-container {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin: 10px;
+}
+
+.header-logo {
+    width: 80px;
+    height: 50px;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-container .btn {
+    margin-left: 20px;
+    height: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px 10px auto;
+}
+
+
+/* Hero Styles */
+.hero-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hero-btn-text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.hero-btn {
+    width: 100px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.hero-container .main-text {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-wrap: wrap;
+    width: 600px;
+}
+
+.hero-container .album-cover {
+    height: 175px;
+    width: 175px;
+}
+
+
+/* Mid-Section */
+.mid-section {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.mid-section-title,
+.mid-section-text {
+    color: #1F2937;
+    text-align: center;
+}
+.mid-section-title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.mid-section-text {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.info-image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-image:hover {
+    transform:translateY(-10px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
